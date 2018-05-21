@@ -1,6 +1,9 @@
 <template>
     <div id="app">
         <topbar></topbar>
+        <div id="app-content">
+            <router-view></router-view>
+        </div>
     </div>
 </template>
 
@@ -19,6 +22,7 @@ export default {
 <style lang="scss">
 body {
     margin: 0px;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 #app {}

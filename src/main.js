@@ -4,11 +4,18 @@ import App from './App.vue';
 
 //Element UI
 import ElementUI from 'element-ui';
-import './style.scss'
+import './theme.scss'
 Vue.use(ElementUI);
+
+//MDI
+import 'mdi/css/materialdesignicons.min.css';
+
+//Router
+import router from './router';
 
 //Initialize App
 new Vue({
     el: '#app',
+    router,
     render: h => h(App)
 })
