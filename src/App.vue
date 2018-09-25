@@ -23,6 +23,7 @@ export default {
 body {
     margin: 0px;
     font-family: 'Nanum Gothic', sans-serif;
+    background-color: #DFDFEF;
 }
 
 #app {}

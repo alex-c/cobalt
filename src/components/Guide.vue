@@ -1,7 +1,7 @@
 <template>
     <div id="guide">
         <div id="guide-content">
-            Guide
+            Guide - WIP
         </div>
     </div>
 </template>

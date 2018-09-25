@@ -1,7 +1,7 @@
 <template>
     <div id="sandbox">
         <div id="sandbox-content">
-            Sandbox
+            Sandbox - WIP
         </div>
     </div>
 </template>

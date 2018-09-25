@@ -1,8 +1,21 @@
 <template>
     <div id="specification">
-        <div id="specification-content">
-            Specification
-        </div>
+        <el-row>
+            <el-col :span="6">
+                <div id="specification-index">
+                    <div>Introduction</div>
+                    <div>Lexical Structure</div>
+                </div>
+            </el-col>
+            <el-col :span="18">
+                <div id="specification-content">
+                    <div>Introduction</div>
+                    <div>Lexical Structure</div>
+                </div>
+            </el-col>
+        </el-row>
+
+
     </div>
 </template>
 
@@ -19,13 +32,15 @@ export default {
 @import "../shared.scss";
 
 #specification {
-    text-align: center;
-    padding-top: 16px;
+}
+
+#specification-index {
+    background-color: green;
+    padding: 20px;
 }
 
 #specification-content {
-    margin: auto;
-    width: $content-width;
-    text-align: left;
+    background-color: red;
+    padding: 20px;
 }
 </style>

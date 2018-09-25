@@ -1,7 +1,8 @@
 <template>
     <div id="tools">
         <div id="tools-content">
-            Tools
+            <p>Tools - WIP</p>
+            <p>cobalt-parser, cobalt.js, ...</p>
         </div>
     </div>
 </template>
